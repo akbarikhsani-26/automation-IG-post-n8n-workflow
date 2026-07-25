@@ -76,7 +76,7 @@ Sebelum mengimpor dan menjalankan workflow ini, Anda wajib menyiapkan 3 kredensi
   - `instagram_content_publish`
   - `pages_read_engagement`
   - `pages_show_list`
-- Dapatkan **Instagram Business Account ID** (contoh ID pada node: <details><summary>`17841443897669040`</summary></details>).
+- Dapatkan **Instagram Business Account ID** (contoh ID pada node: ||`17841443897669040`||).
 
 ---
 
@@ -96,7 +96,7 @@ Sebelum mengimpor dan menjalankan workflow ini, Anda wajib menyiapkan 3 kredensi
 ### Langkah 3: Sesuaikan ID Spreadsheet & Instagram ID
 1. Buat Google Spreadsheet baru di Drive Anda, lalu salin **Spreadsheet ID** dari URL browser.
 2. Buka setiap node Google Sheets pada canvas, ganti nilai `Document ID` dengan ID Spreadsheet Anda.
-3. Buka node `Facebook Graph API` dan `Facebook Graph API1`, ganti nilai parameter `node` (ID <details><summary>`17841443897669040`</summary></details>) dengan **Instagram Business Account ID** milik Anda.
+3. Buka node `Facebook Graph API` dan `Facebook Graph API1`, ganti nilai parameter `node` (ID ||`17841443897669040`||) dengan **Instagram Business Account ID** milik Anda.
 
 ### Langkah 4: Pengujian & Aktivasi Workflow
 1. Lakukan uji coba eksekusi manual per node dengan mengklik **Test Step** atau **Execute Workflow**.
